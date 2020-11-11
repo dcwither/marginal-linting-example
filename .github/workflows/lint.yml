@@ -8,4 +8,4 @@ jobs:
       - name: Install Dependencies ⬆️
         run: npm i --ci
       - name: Lint Typescript 👕
-        run: npm run lint
+        run: npm run lint:ci

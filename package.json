@@ -19,6 +19,8 @@
   "scripts": {
     "start": "react-scripts start",
     "lint": "eslint src/**/*.{ts,tsx} --config=.eslintrc.json",
+    "lint:ci": "eslint src/**/*.{ts,tsx} --config=.eslintrc-ci.json",
+    "lint:fix": "npm run lint -- --fix",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
