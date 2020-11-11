@@ -1,0 +1,11 @@
+name: CI
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Dependencies ⬆️
+        run: npm i --ci
+      - name: Lint Typescript 👕
+        run: npm run lint
