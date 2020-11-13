@@ -1,8 +1,12 @@
 import './index.css';
 
+// TODO: add extension
+// eslint-disable-next-line import/extensions
 import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom';
+// TODO: add extension
+// eslint-disable-next-line import/extensions
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

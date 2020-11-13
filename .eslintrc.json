@@ -3,6 +3,7 @@
     "browser": true,
     "es2021": true
   },
+  "plugins": ["react", "@typescript-eslint", "import"],
   "extends": ["plugin:react/recommended"],
   "parser": "@typescript-eslint/parser",
   "settings": {
@@ -22,6 +23,7 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint"],
-  "rules": {}
+  "rules": {
+    "import/extensions": ["error", "always"]
+  }
 }
